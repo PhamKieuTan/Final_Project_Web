@@ -18,13 +18,25 @@
             include ("pages/pTimKiem.php");
             break;
         case 6:
-            include ("pages/pXuLyDangNhap.php");
+            include ("templates/tempDangNhap.php");
             break;
         case 7:
-            include ("pages/pDangKy.php");
+            include ("pages/pXuLyDangNhap.php");
             break;
         case 8:
+        include ("templates/tempDangKy.php");
+        break;
+        case 9:
+        include ("pages/pXuLyDangKy.php");
+        break;
+        case 10:
         include ("admin/index.php");
+        break;
+        case 11:
+        include ("templates/tempGioHang.php");
+        break;
+        case 12:
+        include ("pages/pXylyGioHang.php");
         break;
         
         default:
