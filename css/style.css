@@ -107,11 +107,6 @@ body {
     margin-left: 7px;
 }
 
-.DangNhap,
-.DangKy h1 {
-    text-align: left;
-}
-
 .box-DangNhap,
 .DangKy {
     padding-top: 75px;
@@ -191,7 +186,8 @@ body {
 #input-search button.icon {
     cursor: pointer;
     border: none;
-    background: #fff;
+    /* background: #fff; */
+    background: #ffc90e;
     height: 40px;
     width: 40px;
     color: #0c0c0c;
@@ -209,7 +205,7 @@ body {
 #input-search:focus button.icon {
     outline: none;
     opacity: 1;
-    margin-left: -3px;
+    margin-left: -1px;
 }
 
 #input-search #select-search {
@@ -678,9 +674,14 @@ body {
     font-size: 12px;
     margin: 0;
     padding: 0;
-}   font-size: 12px;
-    margin: 0;
-    padding: 0;
-}   margin: 0;
-    padding: 0;
+}
+
+font-size: 12px;
+margin: 0;
+padding: 0;
+
+}
+margin: 0;
+padding: 0;
+
 }
