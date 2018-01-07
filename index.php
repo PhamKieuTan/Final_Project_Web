@@ -29,11 +29,6 @@
             <?php include ('./modules/mMenuShop.php');?>
         </div>
         <div class="content">
-            <div class="top-content">
-                <div class="slider-content">
-                    <?php include ('./templates/slider-content.php');?>
-                </div>
-            </div>
             <?php include_once ('modules/mContent.php');?>   
         </div>
         <div class="bottom-slider-content">
