@@ -11,10 +11,10 @@
     * a = 5: kết quả tìm kiếm sản phẩm
     * a = 6: đăng nhập
     * a = 7: đăng ký tài khoản
-    * a = 8: 
-    * a = 9: 
-    * a = 10: xử lý đăng nhập
-    * a = 11: xử lý đăng xuất
-    * a = 12: xử lý thêm sản phẩm vào giỏ hàng
-    * a = 13: xử lý cập nhật giỏ hàng
-    * a = 14: xử thanh toán
+    * a = 8: xử lý đăng nhập
+    * a = 9: xử lý đăng xuất
+    * a = 10: xử lý thêm sản phẩm vào giỏ hàng
+    * a = 11: xử lý cập nhật giỏ hàng
+    * a = 12: xử thanh toán
+    * a = 13: 
+    * a = 14: 
