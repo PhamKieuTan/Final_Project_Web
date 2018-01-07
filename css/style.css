@@ -218,6 +218,7 @@ body {
 }
 
 .menu .main-menu {
+    height: 43px;
     font-size: 18px;
     background-color: rgb(112, 107, 107);
 }
@@ -242,7 +243,7 @@ body {
 .menu .main-menu ul {
     display: block;
     position: relative;
-    z-index: auto;
+    z-index: 4;
 }
 
 .menu .main-menu ul li {
@@ -447,7 +448,7 @@ body {
 }
 
 .ChiTietSanPham {
-    margin-top: 30px;
+    padding-top: 75px;
     min-height: 550px;
     width: 100%;
 }
@@ -474,7 +475,7 @@ body {
     margin-right: 90px;
     margin-top: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .ChiTietSanPham .ThongTin-right {
@@ -550,7 +551,8 @@ body {
 
 .error {
     max-height: 250px;
-    margin-top: 30px;
+    margin-top: 5px;
+    padding-top: 75px;
 }
 
 .error h3 {
