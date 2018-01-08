@@ -12,35 +12,25 @@
             include ("pages/pSanPhamTheoLoai.php");
             break;
         case 4:
-            include ("pages/pThongTinChiTietSanPham.php");
-            break;
-        case 5:
-            include ("pages/pTimKiem.php");
+            include ("pages/pChiTietSanPham.php");
             break;
         case 6:
-            include ("templates/tempDangNhap.php");
+            include ("pages/pQuanLyGioHang.php");
             break;
-        case 7:
-            include ("pages/pXuLyDangNhap.php");
-            break;
-        case 8:
-        include ("templates/tempDangKy.php");
-        break;
-        case 9:
-        include ("pages/pXuLyDangKy.php");
-        break;
         case 10:
-        include ("admin/index.php");
-        break;
+            include ("pages/exDangNhap.php");
+            break;
         case 11:
-        include ("templates/tempGioHang.php");
-        break;
+            include ("pages/exDangXuat.php");
+            break;
         case 12:
-        include ("pages/pXylyGioHang.php");
-        break;
-        
+            include ("pages/exThemSanPhamVaoGioHang.php");
+            break;
+        case 13:
+            include ("pages/exCapNhatGioHang.php");
+            break;
         default:
-            include ("pages/pError.php");
+            include "pages/pError.php";
             break;
     }
 ?>
