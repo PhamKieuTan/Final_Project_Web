@@ -51,7 +51,13 @@ body {
     text-decoration: none;
     color: #fff;
 }
-
+.header .top-header #topright-header #tenHienThi {
+    color: #fff;
+    cursor:pointer;
+}
+.header .top-header #topright-header #tenHienThi:hover{
+    color: rgb(212, 202, 202);
+}
 .header .top-header #topright-header ul li a:hover {
     background-color: rgb(212, 202, 202);
 }
@@ -150,8 +156,13 @@ body {
     background: #F00;
 }
 
-.DangKy .frmDangKy #city {
+.DangKy .frmDangKy #city,
+#NgaySinh {
     overflow: overlay;
+}
+
+.DangKy .frmDangKy #NgaySinh {
+    width: 60px;
 }
 
 .require {
