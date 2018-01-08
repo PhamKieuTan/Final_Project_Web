@@ -6,7 +6,7 @@
         $Pas = $_POST['txtPs'];
 
         $sql = "SELECT MaTaiKhoan,MaLoaiTaiKhoan,TenDangNhap,TenHienThi,MatKhau FROM TaiKhoan 
-                WHERE BiXoa = 0 AND TenDangNhap = '$User' AND MatKhau ='$Pas'";
+                WHERE TenDangNhap = '$User' AND MatKhau ='$Pas'";
         $result = DataProvider::ExecuteQuery($sql);
         $row = mysqli_fetch_array($result);
         if($row != null)
