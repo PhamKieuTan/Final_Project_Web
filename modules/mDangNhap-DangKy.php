@@ -1,0 +1,2 @@
+<li><a href="index.php?a=8"><span><img src="./icon/Add.png" alt="" title="Đăng Ký Thành Viên"</span>Đăng Ký</a></li>
+<li><a href="index.php?a=6"><span><img src="./icon/User-Login-24.png" alt=""  title="Đăng Nhập mua hàng"></span>Đăng Nhập</a></li>
