@@ -47,7 +47,7 @@
             </form>
             <div id="bottom-right-header">
                 <ul>
-                    <li>(<span>0</span>)<a href="index.php?a=11"><span><img src="./icon/bag.png" width="30" height="25"alt="" title="Giỏ hàng của bạn"></span>Giỏ hàng</a></li>  
+                    <li><a href="index.php?a=11"><span><img src="./icon/bag.png" width="30" height="25"alt="" title="Giỏ hàng của bạn"></span>Giỏ hàng</a></li>  
                 </ul>
             </div>
         </div>
