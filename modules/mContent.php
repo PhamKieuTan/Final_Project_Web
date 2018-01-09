@@ -41,7 +41,9 @@
         case 13:
             include ("pages/pCapNhapGioHang.php");
             break;
-        
+        case 14:
+            include ("pages/pThanhToanGioHang.php");
+            break;
         default:
             include ("pages/pError.php");
             break;
