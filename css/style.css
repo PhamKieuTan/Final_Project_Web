@@ -51,13 +51,16 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
 .header .top-header #topright-header #tenHienThi {
     color: #fff;
-    cursor:pointer;
+    cursor: pointer;
 }
-.header .top-header #topright-header #tenHienThi:hover{
+
+.header .top-header #topright-header #tenHienThi:hover {
     color: rgb(212, 202, 202);
 }
+
 .header .top-header #topright-header ul li a:hover {
     background-color: rgb(212, 202, 202);
 }
@@ -130,7 +133,8 @@ body {
 
 .box-DangNhap input[type="submit"],
 #submit,
-#subNhanLai {
+#subNhanLai,
+#ThanhToanSP {
     background: #f37021;
     color: #fff;
     text-shadow: none;
@@ -369,13 +373,11 @@ body {
 }
 
 .top-content {
-    .top-content {
     height: 100%;
     width: 100%;
     display: block;
     overflow: hidden;
     z-index: 1;
-}
 }
 
 .product-new {
@@ -579,6 +581,48 @@ body {
     padding-left: 60px;
 }
 
+.QLGioHang {
+    padding-top: 20px;
+}
+
+.QLGioHang table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.QLGioHang td {
+    padding-top: 10px;
+}
+
+.td-img img {
+    padding: 10px 10px 10px 10px;
+    line-height: center;
+}
+
+.QLGioHang .title-cart {
+    margin-top: 10px;
+    background: #e2dede;
+}
+
+.pprice,
+.ThanhToan {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ThanhToan #ThanhToanSP a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ThanhToan #ThanhToanSP:hover {
+    background: #e2dede;
+}
+
+.ThanhToan #ThanhToanSP a:hover {
+    color: #f37021;
+}
+
 .bottom-slider-content {
     width: 100%;
 }
@@ -690,14 +734,4 @@ body {
     font-size: 12px;
     margin: 0;
     padding: 0;
-}
-
-font-size: 12px;
-margin: 0;
-padding: 0;
-
-}
-margin: 0;
-padding: 0;
-
 }
