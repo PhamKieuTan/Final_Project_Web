@@ -47,7 +47,16 @@
             </form>
             <div id="bottom-right-header">
                 <ul>
-                    <li><a href="index.php?a=11"><span><img src="./icon/bag.png" width="30" height="25"alt="" title="Giỏ hàng của bạn"></span>Giỏ hàng</a></li>  
+                    <li>
+                        <?php
+                            if(isset($_SESSION['maTaiKhoan']))
+                            { 
+                                ?>
+                                <a href="index.php?a=11"><span><img src="./icon/bag.png" width="30" height="25"alt="" title="Giỏ hàng của bạn"></span>Giỏ hàng</a>
+                                <?php
+                            }
+                        ?>
+                    </li>  
                 </ul>
             </div>
         </div>
