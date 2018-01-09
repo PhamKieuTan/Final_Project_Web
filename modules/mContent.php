@@ -33,10 +33,13 @@
             include ("pages/pDangXuat.php");
             break;
         case 11:
-            include ("templates/tempGioHang.php");
+            include ("pages/pQuanLyGioHang.php");
             break;
         case 12:
-            include ("pages/pXylyGioHang.php");
+            include ("pages/pThemSanPhamGioHang.php");
+            break;
+        case 13:
+            include ("pages/pCapNhapGioHang.php");
             break;
         
         default:
