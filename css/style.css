@@ -637,24 +637,6 @@ body {
     padding-right: 67px;
 }
 
-#back-top span:before {
-    cursor: pointer;
-    background: #fdd504;
-    width: 40px;
-    position: fixed;
-    right: 20px;
-    bottom: 45px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 18px;
-    color: #000;
-    content: "▲";
-    opacity: 0.5;
-    z-index: 8;
-    border-radius: 5px;
-}
-
 .error {
     max-height: 250px;
     margin-top: 5px;
@@ -714,6 +696,24 @@ body {
 
 .row .icon {
     padding-right: 10px;
+}
+
+#back-top span:before {
+    cursor: pointer;
+    background: #fdd504;
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 45px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #000;
+    content: "▲";
+    opacity: 0.5;
+    z-index: 9999;
+    border-radius: 5px;
 }
 
 .footer .footer-bottom {
