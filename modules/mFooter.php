@@ -1,6 +1,6 @@
-<div>
-    <p id="back-top" style="display: block;">
-        <a href="#top" title="Về Đầu Trang"><span></span></a>
+<div class="go-top">
+    <p>
+        <a id="back-top" href="javascript:void(0);" style="display: block;" title="Về Đầu Trang"><span></span></a>
     </p>
 </div>
 <div class="footer-row">
