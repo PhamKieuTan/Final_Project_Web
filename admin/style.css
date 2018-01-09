@@ -35,3 +35,44 @@ body {
     background-color: rgb(241, 238, 21);
 }
 
+.header-right ul li {
+    text-align: center;
+    list-style: none;
+    float: left;
+    padding: 0 5px 5px 5px;
+    line-height: 45px;
+    height: 45px;
+}
+
+.header-right ul li a:hover {
+    font-weight: bold;
+    background-color: beige;
+}
+
+.header a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.content {
+    margin: 0;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(229, 231, 233);
+}
+
+.footer {
+    margin: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.footer .copyright {
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(216, 213, 218, 0.8);
+}
