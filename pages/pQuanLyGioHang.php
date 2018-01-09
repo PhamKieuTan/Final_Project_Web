@@ -45,7 +45,7 @@
     </div>
     <div class="ThanhToan">
         <button id="ThanhToanSP" style="height: 35px;width: 202px;">
-            <a href="pages/pThanhToanGioHang.php"> Tiến Hành Thanh Toán</a>
+            <a href="index.php?a=14"> Tiến Hành Thanh Toán</a>
         </button>
     </div>
 </div>
