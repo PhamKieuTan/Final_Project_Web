@@ -10,7 +10,7 @@
     <style type="text/css">
         #Images {
             width: 100%;
-            height: 444px;
+            height: 374px;
         }
     </style>
 </head>
